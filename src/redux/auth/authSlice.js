@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { authWithGoogle } from './authOperations';
 
-const initialState = {
+const initialState = { 
   user: { 
     name: '',
     email: '',
