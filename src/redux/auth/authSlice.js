@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import { authWithGoogle } from './authOperations';
 
 const initialState = {
-  user: {
+  user: { 
     name: '',
     email: '',
     img: '',
